@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "0.0.0.0:4000:4000"
+    env_file:
+      - ./backend/.env
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "0.0.0.0:5173:5173"
+    env_file:
+      - ./frontend/.env
+
+  floci:
+    image: floci/floci:latest
+    ports:
+      - "0.0.0.0:4566:4566"
+    volumes:
+      - ./floci:/root/.config/minio

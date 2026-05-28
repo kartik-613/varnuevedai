@@ -1,0 +1,479 @@
+Design a complete modern enterprise AI SaaS Admin Platform for “VarnueVedAI” in Figma Make.
+
+The platform combines:
+
+RAG Query Assistant Admin Portal
+Enterprise Organization & Data Connector Management System
+
+The final UI should feel like a scalable enterprise AI operating system used by large organizations for:
+
+AI governance
+RAG management
+Enterprise analytics
+User administration
+Query monitoring
+Data connector orchestration
+Resource governance
+AI workflow management
+
+STYLE DIRECTION:
+
+Premium enterprise SaaS UI
+Clean, structured, professional
+Modern AI platform aesthetics
+White/light theme
+Minimal but data-rich
+Enterprise-grade UX
+Fully responsive desktop-first design
+
+COLOR SYSTEM:
+Primary Accent:
+
+#ffbd59
+
+Enterprise Teal Palette:
+
+#0F766E
+#0D9488
+#14B8A6
+
+Neutral Palette:
+
+White backgrounds
+Light gray borders
+Dark gray typography
+Subtle shadows
+
+TYPOGRAPHY:
+
+Inter font family
+Strong visual hierarchy
+Compact enterprise spacing
+Clean readable dashboards
+
+COMPONENT STYLE:
+
+Rounded corners (16px)
+Soft shadows
+Elegant gradients
+Compact cards
+Structured forms
+Professional data tables
+Minimal hover animations
+Consistent spacing system
+
+MAIN APPLICATION STRUCTURE:
+
+LOGIN PAGE
+Create a premium AI authentication experience.
+
+Layout:
+
+Full-screen teal gradient background
+Floating blurred circular elements
+Centered frosted-glass login card
+Large VarnueVedAI logo at top
+
+Inside login card:
+
+Email field with icon
+Password field with icon
+Gradient “Sign In to Dashboard” button
+Google login button
+Microsoft login button
+“Forgot password?” link
+Bottom feature badges:
+Secure
+Analytics
+AI Powered
+
+Use:
+
+Backdrop blur
+Soft glow
+Modern SaaS aesthetics
+Elegant shadows
+ADMIN LAYOUT
+Create enterprise admin shell layout.
+
+Structure:
+
+Sticky top header
+Fixed left sidebar
+Breadcrumb navigation
+Scrollable content area
+
+SIDEBAR:
+Include:
+
+Dashboard
+Organizations
+Users
+Requests
+Billing
+Settings
+
+Design:
+
+Minimal enterprise sidebar
+Lucide-style icons
+Active menu item with gradient highlight
+Elegant hover states
+
+TOPBAR:
+Include:
+
+Global Search
+Notifications
+Current Time
+User Profile Dropdown
+Logout button
+
+BREADCRUMB EXAMPLE:
+Dashboard / Organizations / Org Details / Configuration
+
+DASHBOARD PAGE
+Create a premium analytics dashboard.
+
+Top KPI Cards:
+
+Total Organizations
+Total Users
+Queries Asked
+Dashboards Configured
+Reports Generated
+Storage Consumption
+
+Design:
+
+SVG gradient icons
+White cards
+Soft shadows
+Hover elevation
+Compact layout
+Responsive KPI grid
+
+Below KPIs:
+
+Query Trends chart
+Usage Analytics graph
+Storage Consumption chart
+Recent Requests panel
+Organization Summary table
+System Health indicators
+
+Use:
+
+Enterprise analytics visualization
+AI operations dashboard aesthetics
+ORGANIZATIONS PAGE
+Enterprise organization management screen.
+
+Top Actions:
+
+Search
+Plan filter
+Status filter
+Create Organization button
+
+Table Columns:
+
+Organization Name
+Plan
+Users
+Usage
+Expiry
+Status
+Actions
+
+Actions:
+
+View
+Edit
+Configure
+Delete
+
+Design:
+
+Compact enterprise tables
+Sticky table header
+Responsive overflow
+Elegant status badges
+ORGANIZATION DETAILS PAGE
+Detailed enterprise organization profile.
+
+Header:
+
+Organization Name
+Plan Badge
+Status Badge
+Usage Indicators
+
+Tabbed Interface:
+
+Overview
+Users
+Queries
+Storage
+Connectors
+Billing
+
+Inside tabs:
+
+Analytics widgets
+Usage charts
+Storage cards
+Activity timeline
+Connector summaries
+FLAGSHIP SCREEN:
+ORGANIZATION CONFIGURATION PAGE
+
+This should be the most advanced and visually impressive screen.
+
+LAYOUT:
+Adaptive 2-column enterprise layout.
+
+LEFT PANEL:
+Configuration navigation cards:
+
+General Info
+Resource Limits
+Access Period
+Feature Toggles
+Data Connectors (active state)
+
+RIGHT PANEL:
+Dynamic configuration workspace.
+
+DATA CONNECTORS SYSTEM:
+Use expandable connector cards with progressive disclosure UX.
+
+Connector Cards:
+
+Database Connector
+Cloud Storage
+REST API
+Local Storage
+File Uploads
+
+Each connector card includes:
+
+Icon
+Title
+Description
+Toggle switch
+Status badge
+Expand/collapse interaction
+
+IMPORTANT UX:
+Only show connector configuration forms when toggle is enabled.
+
+DATABASE CONNECTOR:
+Expanded enterprise configuration panel.
+
+Supported Databases:
+
+PostgreSQL
+MySQL
+SQL Server
+MongoDB
+Oracle
+SAP
+Tally
+PeopleSoft
+
+Database Form Fields:
+
+Database Type dropdown
+Host
+Port
+Database Name
+Username
+Password
+SSL Toggle
+Connection Timeout
+Test Connection button
+Save Configuration button
+
+CLOUD STORAGE CONNECTOR:
+Show:
+
+Provider dropdown
+Amazon S3
+Google Drive
+OneDrive
+Azure Blob
+
+REST API CONNECTOR:
+Show:
+
+Base URL
+API Key
+Auth Type
+Headers
+Rate Limit
+Test Endpoint button
+
+FILE UPLOAD CONNECTOR:
+Show:
+
+Allowed file types
+PDF
+DOCX
+XLSX
+PPTX
+CSV
+TXT
+MD
+Max upload size
+Auto indexing toggle
+Storage limit
+
+ADVANCED UX DETAILS:
+
+Smooth accordion animations
+Independent save actions
+Connector status badges:
+Connected
+Failed
+Pending
+Disabled
+
+Additional enterprise widgets:
+
+“3 Active Connectors” summary badge
+Mini storage analytics card
+Success alert after connection test
+Connector activity timeline
+Resource monitoring widget
+USERS MANAGEMENT PAGE
+Enterprise user administration system.
+
+Features:
+
+Search users
+Filter by organization
+Filter by status
+Multi-select users
+Batch delete
+Add User button
+
+Table Columns:
+
+Checkbox
+Name
+Email
+Organization
+Role
+Access Period
+Max Data Size
+Allowed Sources
+Usage
+Status
+Actions
+
+Design:
+
+Sticky headers
+Responsive table
+Enterprise spacing
+Status badges
+Compact action icons
+ADD USER PAGE
+Compact enterprise form experience.
+
+Breadcrumb:
+Dashboard / Users / Add User
+
+Form Sections:
+
+Basic Information:
+
+Full Name
+Email
+
+Access Period:
+
+Start Date
+End Date
+
+Resource Allocation:
+
+Max Upload Size slider
+Query limits
+AI token allocation
+
+Allowed Data Sources:
+Selectable cards:
+
+PDF
+CSV
+TXT
+JSON
+DOCX
+XLSX
+
+Organization Access:
+
+Assign organization
+Role dropdown
+Permission toggles
+
+Use:
+
+Responsive 2-column forms
+Compact spacing
+Enterprise sliders
+Selectable source cards
+Gradient primary button
+EDIT USER PAGE
+Same design system as Add User page but prefilled with user data.
+REQUESTS PAGE
+Enterprise approval workflow system.
+
+Table Columns:
+
+Organization
+Request Type
+Amount
+Date
+Priority
+Status
+Actions
+
+Use:
+
+Priority badges
+Approval/reject buttons
+Expandable details drawer
+Enterprise workflow styling
+
+VISUAL INSPIRATION:
+Blend aesthetics from:
+
+Stripe Dashboard
+Linear
+Notion Enterprise
+Vercel Admin
+Modern AI SaaS platforms
+
+AVOID:
+
+Heavy glassmorphism
+Neon colors
+Oversized cards
+Cluttered layouts
+Cartoon UI
+Excessive gradients
+
+FINAL OUTPUT:
+Create a production-ready enterprise AI Admin Platform design system with:
+
+Consistent component library
+Scalable enterprise architecture
+AI-focused SaaS workflows
+Premium analytics dashboards
+Enterprise connector management
+Modern responsive layouts
+Professional UX patterns
+High-end SaaS visual quality
